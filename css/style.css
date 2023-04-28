@@ -185,17 +185,57 @@ br {
 }
 
 /* Четверта секція */
+.introducing {
+	background-color: #fff;
+}
+
 .introducing__text_h2 {
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	padding: 48px 0 48px 0;
+	padding: 48px 0 0 0;
 }
 
 .introducing__text_p {
 	display: flex;
-	justify-content: center;
-	text-align: center;
+	text-align: left;
 	padding: 0px 458px 22px 458px;
+	background-color: #fff;
 	
+}
+.ppc-logo-text {
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+
+}
+
+.introducing__text_for_logo{
+	font-size: 32px;
+	font-weight: 500;
+	font-family: 'Roboto';
+	color: #000;
+	text-align: justify;
+	padding: 50px 462px 30px 50px;
+	background-color: #fff;
+}
+.usersforusers {
+	font-size: 32px;
+	font-weight: 500;
+	font-family: 'Roboto';
+	font-style: italic;
+	color: #000;
+}
+
+.ppc_logo {
+	padding: 40px 0 50px 468px;
+	height: auto;
+	width: auto;
+}
+
+/* Team секція */
+.team {
+	background-color: #EEEEEE ;
+	height: 845px;
+	width: auto;
 }
