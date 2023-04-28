@@ -98,7 +98,38 @@ h1 {
 }
 
 h2 {
-	
+	font-size: 64px;
+	font-weight: 400;
+	font-family: 'Roboto';
+	color: #007765;
+}
+
+h3 {
+	font-size: 48px;
+	font-weight: 400;
+	font-family: 'Roboto';
+	font-style: italic;
+	color: #fff;
+}
+
+p {
+	font-size: 32px;
+	font-weight: 500;
+	font-family: 'Roboto';
+	color: #000;
+	text-align: justify;
+
+}
+
+span {
+	font-size: 32px;
+	font-weight: 700;
+	font-family: 'Roboto';
+	color: #000;
+}
+
+br {
+	line-height:56px;
 }
 
 /* Перша секція PiperNet Is Here */
@@ -111,5 +142,60 @@ h2 {
 }
 .piper_net__text {
 	padding: 164px 0 0 0;
+}
 
+/* Друга секція The Problem */
+.the_problem {
+	display: flex;
+	justify-content: center;
+	height: 140px;
+	width: auto;
+}
+
+.the_problem__text {
+	padding: 50px 0 0px 0;
+}
+
+.the_problem__p {
+	
+	display: flex;
+	justify-content: center;
+	height: auto;
+	width: auto;
+
+}
+
+.the_problem__p-text {
+	padding: 18px 458px 18px 458px;
+}
+
+/* Третя секція We’re in this together*/
+.were_in_together {
+	display: flex;
+	justify-content: center;
+	background-image: url(/img/were.png);
+	height: 403px;
+	width: auto;
+}
+.were_in_together__text {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 122px 562px 0 562px;
+}
+
+/* Четверта секція */
+.introducing__text_h2 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 48px 0 0px 0;
+}
+
+.introducing__text_p {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 48px 458px 22px 458px;
+	
 }
