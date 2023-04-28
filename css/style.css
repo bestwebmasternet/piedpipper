@@ -36,6 +36,7 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
+
 /* Головні стилі для сайту */
 body {
 	background-color: #eeee;
@@ -88,7 +89,27 @@ li {
     border-right: none;
 } 
 
+/* Стилі шрифтів */
+h1 {
+	font-size: 72px;
+	font-weight: 400;
+	font-family: 'Roboto';
+	color: #fff;
+}
+
+h2 {
+	
+}
+
 /* Перша секція PiperNet Is Here */
 .piper_net {
+	display: flex;
+	justify-content: center;
 	background-image: url(/img/pipernet.png);
+	height: 403px;
+	width: auto;
+}
+.piper_net__text {
+	padding: 164px 0 0 0;
+
 }
