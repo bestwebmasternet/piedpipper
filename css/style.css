@@ -113,6 +113,21 @@ h3 {
 	color: #fff;
 }
 
+h4 {
+	font-size: 24px;
+	font-weight: 700;
+	font-family: 'Roboto';
+	color: #007765;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: 500;
+	font-family: 'Roboto';
+	color: #000;
+	font-style: italic;
+}
+
 p {
 	font-size: 32px;
 	font-weight: 500;
@@ -241,6 +256,18 @@ br {
 	width: auto;
 	margin-top: 62px;
 }
+
+.team_one {
+	display: flex;
+	justify-content: space-around;
+	padding-right: 50px 150px;
+	text-align: center;
+}
+
+.team_one_card {
+	padding: 60px 0px 60px 0;
+}
+
 
 /* Копірайт */
 .copyright {
