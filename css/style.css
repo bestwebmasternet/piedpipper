@@ -157,7 +157,7 @@ br {
 	width: auto;
 }
 .piper_net__text {
-	padding: 164px 0 0 0;
+	padding: 164px 0 0px 0;
 }
 
 /* Друга секція The Problem */
@@ -169,7 +169,7 @@ br {
 }
 
 .the_problem__text {
-	padding: 50px 0 0px 0;
+	padding: 48px 0 0px 0;
 }
 
 .the_problem__p {
@@ -178,6 +178,7 @@ br {
 	justify-content: center;
 	height: auto;
 	width: auto;
+	padding-bottom: 92px;
 
 }
 
@@ -197,7 +198,7 @@ br {
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	padding: 122px 562px 0 562px;
+	padding: 122px 542px 0 542px;
 }
 
 /* Четверта секція */
@@ -209,13 +210,21 @@ br {
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	padding: 48px 0 0 0;
+	padding: 48px 0 4px 0;
 }
 
 .introducing__text_p {
 	display: flex;
 	text-align: left;
 	padding: 0px 458px 22px 458px;
+	background-color: #fff;
+	
+}
+
+.introducing__text_p_p {
+	display: flex;
+	text-align: left;
+	padding: 0px 458px 92px 458px;
 	background-color: #fff;
 	
 }
@@ -260,16 +269,19 @@ br {
 .team_one {
 	display: flex;
 	justify-content: space-around;
-	padding-right: 50px 150px;
+	padding-right: 50px;
 	text-align: center;
 	width: 1000px;
-	margin-left: 512px;
+	margin-left: 522px;
 }
 
 .team_one_card {
 	padding: 60px 0px 60px 0;
 }
 
+.team_one_card__name {
+	padding-top: 10px;
+}
 
 /* Копірайт */
 .copyright {
