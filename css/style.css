@@ -48,7 +48,8 @@ header {
 	justify-content: space-between;
 	background-color: #007765;
 	height: 84px;
-	width: auto;
+	width: 2010px;
+	position: fixed;
 }
 
 /* Лого */
@@ -60,6 +61,7 @@ header {
 }
 
 /* Головне меню */
+
 ul {
 	margin-top: 28px;
 	margin-right: 394px;
@@ -155,9 +157,10 @@ br {
 	background-image: url(/img/pipernet.png);
 	height: 403px;
 	width: auto;
+	padding-top: 84px;
 }
 .piper_net__text {
-	padding: 164px 0 0px 0;
+	padding: 104px 0 0px 0;
 }
 
 /* Друга секція The Problem */
