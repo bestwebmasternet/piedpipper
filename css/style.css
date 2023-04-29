@@ -262,6 +262,8 @@ br {
 	justify-content: space-around;
 	padding-right: 50px 150px;
 	text-align: center;
+	width: 1000px;
+	margin-left: 512px;
 }
 
 .team_one_card {
