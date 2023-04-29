@@ -102,6 +102,7 @@ h2 {
 	font-weight: 400;
 	font-family: 'Roboto';
 	color: #007765;
+	text-align: center;
 }
 
 h3 {
@@ -236,6 +237,22 @@ br {
 /* Team секція */
 .team {
 	background-color: #EEEEEE ;
-	height: 845px;
+	height: auto;
 	width: auto;
+	margin-top: 62px;
+}
+
+/* Копірайт */
+.copyright {
+	background-color: #333333;
+	height: 176px;
+}
+
+.copyright_text {
+	color:#fff;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Roboto';
+	text-align: center;
+	padding: 50px 736px 60px 736px;
 }
